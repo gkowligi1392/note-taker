@@ -16,7 +16,7 @@ router.get("/note/:id", (req, res) => {
     if (note) {
         res.json(note);
     } else {
-        res.status(400).send(`don't find any note with id ${id}`);
+        res.status(400).send(`couldn't find any note with id ${id}`);
     }
 });
 //post create new note
@@ -33,7 +33,7 @@ router.delete("/notes/:id", (req, res) => {
     if (note) {
         res.json(note);
     } else {
-        res.status(400).send(`don't find any note with id ${id}`);
+        res.status(400).send(`couldn't find any note with id ${id}`);
     }
 });
 
