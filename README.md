@@ -6,7 +6,7 @@
 
 This project provides an easy interface to manage your daily notes.
 
-<p align="center"><img src="./assets/images/Screenshot.png" width="70%"></p>
+<p align="center"><img src="./public/assets/images/Screenshot.png" width="70%"></p>
 
 [Click here to visit the live URL deployed on Heroku](https://damp-brushlands-71741.herokuapp.com/)
 
